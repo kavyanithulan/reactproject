@@ -1,13 +1,15 @@
-import ShoppingList from "./TaskComponents/ShoppingList";
-
-
+import BasicEffect from "./UseEffectComponents/BasicEffect";
+import CounterEffect from "./UseEffectComponents/CounterEffect";
+import FetchDataEffect from "./UseEffectComponents/FetchDataEffect";
 
 const App =()=>{
  
  
     return <div>
-   
-     <ShoppingList/>
+   <BasicEffect/>
+   <CounterEffect/>
+   <FetchDataEffect/>
+
     </div>
 }
 

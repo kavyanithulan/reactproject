@@ -1,16 +1,10 @@
-import UpdateUser from "./UseContextComponents/UpdateUser";
-import UserProfile from "./UseContextComponents/UserProfile";
-import UserProvider from "./UseContextComponents/UserProvider";
+
+import Counter from "./UseReducerComponent/Counter";
 
 const App =()=>{
  
     return <div>
-  <UserProvider>
-    <UserProfile/>
-    <UpdateUser/>
-  </UserProvider>
-
-
+ <Counter></Counter>
     </div>
 }
 

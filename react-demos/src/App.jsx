@@ -1,10 +1,10 @@
 
-import Counter from "./UseReducerComponent/Counter";
+import Timer from "./UseRefComponent/Timer";
 
 const App =()=>{
  
     return <div>
- <Counter></Counter>
+<Timer/>
     </div>
 }
 
